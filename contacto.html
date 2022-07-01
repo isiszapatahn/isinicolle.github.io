@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="assets/css/pagination.compiled.css">
+<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 
 <body style="/*background: url(&quot;design.jpg&quot;);*/background-position: 0 -60px;">
@@ -54,11 +55,11 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-6 col-xl-4">
                         <div>
-                            <form class="p-3 p-xl-4" method="post">
-                                <div class="mb-3"><input class="border rounded-pill form-control" type="text" id="txtnombre" name="name" placeholder="Nombre y apellido" required="" autofocus="" minlength="3" maxlength="100" pattern="^[a-zA-Z ]*$"></div>
+                            <form class="p-3 p-xl-4 pageclip-form" action="https://send.pageclip.co/TEAwR0RBysBDVRepUQBWhewVMk4m58Ep/frmcontacto" method="post">
+                                <div class="mb-3"><input class="border rounded-pill form-control" type="text" id="txtnombre" name="subject" placeholder="Nombre y apellido" required="" autofocus="" minlength="3" maxlength="100" pattern="^[a-zA-Z ]*$"></div>
                                 <div class="mb-3"><input class="border rounded-pill form-control" type="email" id="txtcorreo" name="email" placeholder="Correo Electrónico" required="" inputmode="email" minlength="5" maxlength="100"></div>
-                                <div class="mb-3"><textarea class="border rounded form-control" id="txtmsg" name="message" rows="6" placeholder="Mensaje" required="" minlength="10" maxlength="250"></textarea></div>
-                                <div><button class="btn btn-primary shadow d-block w-100" type="submit" style="background: linear-gradient(-133deg, #977be8 58%, white 97%);font-weight: bold;border-style: none;">Enviar</button></div>
+                                <div class="mb-3"><textarea class="border rounded form-control" id="txtmsg" name="body" rows="6" placeholder="Mensaje" required="" minlength="10" maxlength="250"></textarea></div>
+                                <div><button class="btn btn-primary shadow d-block w-100 pageclip-form__submit" type="submit" style="background: linear-gradient(-133deg, #977be8 58%, white 97%);font-weight: bold;border-style: none;">Enviar</button></div>
                             </form>
                         </div>
                     </div>
@@ -138,6 +139,7 @@
             </div>
         </div>
     </div>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
